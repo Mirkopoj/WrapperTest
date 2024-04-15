@@ -1,0 +1,12 @@
+[package]
+name = "wrapper_test"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+debug = ["grow_r503_wrapper/debug"]
+
+
+[dependencies]
+serialport = "4.2.2"
+grow_r503_wrapper = { path = "../grow_r503_wrapper" }
