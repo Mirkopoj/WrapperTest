@@ -53,6 +53,6 @@ fn main() {
         println!("guardar_huella: {r:?}");
         pause();
         let r = sensor.checkear_huella();
-        println!("check_health: (pagina, puntaje){r:?}");
+        println!("check_health: (pagina, puntaje), {r:?}");
     }
 }
